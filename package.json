@@ -5,9 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "browser-sync": "^2.26.0",
+    "node-sass": "^4.9.3",
     "postcss": "^7.0.5",
     "sass": "^1.14.1",
-    "stylelint": "^9.6.0"
+    "stylelint": "^9.6.0",
+    "templatejs": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {

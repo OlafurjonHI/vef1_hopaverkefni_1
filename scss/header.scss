@@ -1,0 +1,14 @@
+header{
+	width:100vw;
+	height:10vh;
+	background-color:$graentish;
+}
+.header__wrapper{
+	display:flex;
+
+}
+.header__navbar__cart{
+	background-image: url("img/cart.svg");
+	width:1em;
+	height:1em;
+}

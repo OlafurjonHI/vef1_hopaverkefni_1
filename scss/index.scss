@@ -5,8 +5,32 @@ $ljosblar: #cee8ff;
 $ljosgult:#fcffd2;
 $ljosrautt: #cc9694;
 
-header{
-	width:100vw;
-	height:10vh;
-	background-color:$graentish;
+.main__content{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+	border:2px solid #aee;
+	width:75em;
+	height:100%;
+}
+.main__row{
+	border:2px solid #bee;
+	
+}
+.main__col{
+	border:2px solid #cee;
+	width:100%;
+}
+.main__col__content{
+	border:2px solid #dee;
+	width:50%;
+}	
+.main__col__image{
+	border:2px solid #eee;
+	width:50%;
+}
+.main__col__image>img
+{
+	width:100%;
 }
