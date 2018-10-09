@@ -5,32 +5,42 @@ $ljosblar: #cee8ff;
 $ljosgult:#fcffd2;
 $ljosrautt: #cc9694;
 
-.main__content{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	width:100%;
-	border:2px solid #aee;
-	width:75em;
-	height:100%;
+
+main{
+
 }
+
 .main__row{
-	border:2px solid #bee;
-	
+	display: flex;
+	margin-left: -10px;
+	margin-right: -10px;
+
 }
 .main__col{
-	border:2px solid #cee;
 	width:100%;
+	//display: flex;
+	padding-left:10px;
+	padding-right:10px;
+
 }
+
 .main__col__content{
-	border:2px solid #dee;
-	width:50%;
+	display: flex;
+	flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 470px;
+  max-height: 300px;
+  overflow: auto;
+
 }	
 .main__col__image{
-	border:2px solid #eee;
-	width:50%;
-}
-.main__col__image>img
-{
+
 	width:100%;
+
+}
+.main__col__img {
+  max-width: 100%;
+  margin-bottom: 20px;
 }
