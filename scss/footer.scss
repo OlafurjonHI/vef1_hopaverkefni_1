@@ -1,28 +1,38 @@
 footer{
 width:100vw;
 background-color:$ljosrautt;
+font-family: sans-serif;
 }
 footer>div{
 	display:flex;
 
 }
+footer ul>li>a{
+	color:$ljosgult;
+	text-decoration:none;
+}
 footer>div>div>ul>li{
 	list-style:none;
+	margin-top:$gutter;
 }
-.footer__row{
-	margin-left: -1*($gutter/2);
-	margin-right: -1*($gutter/2);
+.footer__list__title{
+	font-size:1.5em;
+	font-weight:bold;
+}
 
+.footer__row{
 	width:100%;
 	display:flex;
-	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 .footer__col{
-	padding-left:($gutter / 2);
-	padding-right:($gutter / 2);
+	padding: $gutter;
+
 	width:50%;
 }
 .footer__copyright{
-	
+	margin: 0 auto;
+	margin-top:$gutter;
+	margin-bottom:$gutter;
+
 }
