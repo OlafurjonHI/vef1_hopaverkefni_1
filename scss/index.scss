@@ -54,8 +54,8 @@
   margin-bottom: 20px;
 }
 
-button {
+.main__col__content__bigbutton  {
 	background-color:$ljosrautt;
-
-
+	height: 2*$gutter;
+	width: 4*$gutter;
 }
