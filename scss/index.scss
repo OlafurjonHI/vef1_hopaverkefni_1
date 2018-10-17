@@ -25,6 +25,7 @@
 	margin-top:$gutter;
 	display: flex;
 	font-family:"Helvetica";
+	font-size:1.5em;
 	 flex-direction: row;
     flex-wrap: wrap;
   	width: 100%;
@@ -38,6 +39,13 @@
 .main__col__text>*{
 	margin-top:$gutter;
 	
+}
+.main__col__text__h2{
+	font-size:2em;
+	font-family:'Oswald';
+}
+.main__col__text__p{
+	font-size:1.3em;
 }		
 .main__col__image{
 
@@ -51,3 +59,4 @@
   margin-bottom: 20px;
 }
 
+	
