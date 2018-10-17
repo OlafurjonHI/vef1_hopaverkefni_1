@@ -57,5 +57,9 @@
 .main__col__content__bigbutton  {
 	background-color:$ljosrautt;
 	height: 2*$gutter;
-	width: 4*$gutter;
+	width: 15*$gutter;
+	border:none;
+	border-radius: 4px;
+	font-size: 1em;
+	margin-bottom:$gutter;
 }
