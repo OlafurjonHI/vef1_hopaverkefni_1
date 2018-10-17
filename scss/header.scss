@@ -23,8 +23,16 @@ header{
 .header__navlist{
 	padding:20px;
 	list-style:none;
+	display:flex;
+	flex-direction: row;
+    flex-wrap: wrap
+}
+.header__active__page{
+	text-decoration:underline;
 }
 .header__navitem{
+	margin: 0 auto;
+	text-transform:uppercase;
 }
 .header__navitem>a{
 	text-decoration:none;
