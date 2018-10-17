@@ -27,6 +27,9 @@ header{
 	flex-direction: row;
     flex-wrap: wrap
 }
+.header__navbar__cart{
+	display:inline-flex;
+}
 .header__active__page{
 	text-decoration:underline;
 }
@@ -36,6 +39,7 @@ header{
 }
 .header__navitem>a{
 	text-decoration:none;
+	color:$svartur;
 }
 .header__cart{
 }

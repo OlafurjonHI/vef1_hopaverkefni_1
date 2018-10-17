@@ -1,7 +1,4 @@
 
-
-
-
 .main__row{
 	display: flex;
 	flex-direction:column;
@@ -29,11 +26,17 @@
     flex-wrap: wrap;
   	width: 100%;
 
-
 }
 .main__col__text{
 	height:100%;
 	width:100%;
+}
+.main__col__text__h2{
+	font-family:"Oswald";
+	font-size:3em;
+}
+.main__col__text__p{
+	font-size:2em;
 }
 .main__col__text>*{
 	margin-top:$gutter;
