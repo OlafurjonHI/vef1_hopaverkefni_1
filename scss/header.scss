@@ -1,6 +1,6 @@
 header{
 	width:100vw;
-	height:20vh;
+	height:25vh;
 	background-color:$graentish;
 }
 .header__wrapper{
@@ -14,6 +14,7 @@ header{
 .header__navlist{
 	display:inline-flex;
 	flex-direction:row;	
+		text-transform:uppercase;
 }
 .header__navbar__cart{
 	background-image: url("img/cart.svg");
@@ -35,13 +36,11 @@ header{
 }
 .header__navitem{
 	margin: 0 auto;
-	text-transform:uppercase;
+	width:30%;
 	font-weight:bold;
 	font-family:'Open-Sans';
 }
 .header__navitem>a{
 	text-decoration:none;
 	color:$svartur;
-}
-.header__cart{
 }
