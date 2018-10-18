@@ -27,8 +27,10 @@ footer>div>div>ul>li{
 }
 .footer__col{
 	padding: $gutter;
-
 	width:50%;
+	@media (min-width: 999px){
+		width:25%;
+	}
 }
 .footer__copyright{
 	margin: 0 auto;
