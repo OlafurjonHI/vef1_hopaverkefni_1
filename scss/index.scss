@@ -4,8 +4,9 @@
 	flex-direction:column;
 	margin-left: -1*($gutter/2);
 	margin-right: -1*($gutter/2);
-	@media (min-width: 700px) AND (max-width:999px ){
+	@media (min-width: 700px){
 		flex-direction:row;
+		flex-wrap:wrap;
 
 	}
 
@@ -15,7 +16,24 @@
 	//display: flex;
 	padding-left:($gutter / 2);
 	padding-right:$gutter / 2;
+		@media (min-width: 700px){
+		width:50%;
 
+	}
+
+}
+
+.main__col:nth-child(3){
+			@media (min-width: 700px){
+		order:4;	
+
+	}
+}
+.main__col:nth-child(4){
+			@media (min-width: 700px){
+		order:3;	
+
+	}
 }
 
 .main__col__content{
