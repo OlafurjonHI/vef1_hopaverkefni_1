@@ -1,5 +1,6 @@
 
-
-.main__col__content__bigbutton {
-	
+.main__col__content__bigbutton:hover{
+	color:$ljosrautt;
+	background-color:$svartur;
+	transition: background-color 0.3s ease-in-out;
 }
