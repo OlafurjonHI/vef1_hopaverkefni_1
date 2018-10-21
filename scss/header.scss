@@ -1,11 +1,13 @@
 header{
 	width:100vw;
 	background-color:$graentish;
+	display: flex;
 }
 .header__wrapper{
 	display:flex;
     text-align: center;
     flex-direction: column;
+    margin: 0 auto;
 }
 .header__maintitle{
 	margin-bottom:$gutter;
@@ -44,26 +46,26 @@ header{
 	text-decoration:underline;
 }
 
-.header__navbar__cart{
-	background-image: url("img/cart.svg");
-	margin-top:$gutter;
-	margin-right: $gutter / 2;
-	width:1.4em;
-	height:2em;
-	background-repeat: no-repeat;
-
-}
 .header__navbar__cartlink{
 	font-family:"Open-Sans";
-	 display: inline-flex;
-	 text-transform: none;
+	text-transform: none;
     font-weight:normal;
-     align-items: center;
-		@media (min-width: 700px) AND (max-width:999px ){
+ 	white-space: nowrap;
+ 	letter-spacing: 0em;;
+ 	list-style-image: url("img/cart.svg");
+ 	list-style-position: inside;
+    font-size:2.25em;
+	
+	@media (min-width: 700px) AND (max-width:999px ){
 		width:100%;
 		justify-content: flex-end;
-		}
+	}
 
 
 }
-
+.header__navbar__cartlink__text
+{
+	font-size:21px;
+	letter-spacing: 0em;;
+	vertical-align: middle;
+}
