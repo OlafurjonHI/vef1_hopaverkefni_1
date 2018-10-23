@@ -32,12 +32,10 @@
 .main__col:nth-child(4){
 			@media (min-width: 700px){
 		order:3;	
-
 	}
 }
 
 .main__col__content{
-	margin-top:$gutter;
 	display: flex;
 	font-family:"Helvetica";
 	 flex-direction: row;
@@ -52,19 +50,21 @@
 .main__col__text__h2{
 	font-family:"Oswald";
 	font-size:3em;
+    margin-bottom:2*$gutter;
 }
 .main__col__text__p{
 	font-size:2em;
+	margin-bottom:2*$gutter;
+	@media (min-width: 700px) {
+		font-size:1.6em;
+	}
 }
 .main__col__text>*{
-	margin-top:$gutter;
 	
 }		
 .main__col__image{
 
 	width:100%;
-	margin-top:$gutter;
-	margin-bottom:$gutter;
 
 }
 .main__col__img {
@@ -79,6 +79,6 @@
 	border:none;
 	border-radius: 4px;
 	font-size: 21px;
-	margin-bottom:$gutter;
+	margin-bottom:2*$gutter;
 }
 
