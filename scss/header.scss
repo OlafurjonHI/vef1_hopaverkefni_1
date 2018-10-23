@@ -8,6 +8,7 @@ header{
 .header__navbar{
 	width:100%;
 	display:flex;
+	line-height: 2em;
 	justify-content:center;
 	@media (max-width:699px){
 		    flex-direction: column;
@@ -19,6 +20,7 @@ header{
     flex-direction: column;
     Justify-content: center;
     max-width: 77em;
+    width:100%;
 }
 .header__maintitle{
 	margin-bottom:$gutter;
@@ -35,10 +37,10 @@ header{
 	flex-direction: row;
     flex-wrap: wrap;
 	text-transform:uppercase;
+	width:100%;
     justify-content: space-around;
 }
 .header__navitem{
-	margin: 0 -10px 0 -10px;
 	width:$thirtythree;
 	font-weight:bold;
 	font-family:'Open-Sans';
