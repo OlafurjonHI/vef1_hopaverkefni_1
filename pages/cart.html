@@ -25,78 +25,102 @@
   		</div>	
   	</header>
   	<main>
-      <h2></h2>
+      <h2>Vörur í körfu</h2>
       <div class="cart__container">
-        <div class="cart__image-container">
-            <img src="../img/watch.jpg" alt="">
-          </div>
-          <div>
-            <div class="cart__text-container">
-              <h2>Ótrúlegt úr</h2>
-              <p>Hvað er klukkan? þetta úr mun svara því hvernær sem er.</p>
-              <p class="text__value">99.900kr-</p>
+        <div class="cart__content-container">
+            <div class="cart__image-container">
+                <img src="../img/watch.jpg" alt="">
             </div>
-            <div class="cart__text-container__form">
-              <p>Fjöldi:</p>
-              <form action="">
-                  <input type="text" placeholder="1">
-                  <button><img src="../img/cart.svg" alt="">Uppfæra</button>
-                  <button><img src="../img/cart.svg" alt="">Eyða úr körfu</button>
-              </form>
+            <div class="cart__text-container">
+              <div class="cart__text-container__text">
+                <h2>Ótrúlegt úr</h2>
+                <p>Hvað er klukkan? þetta úr mun svara því hvernær sem er.</p>
+              </div>
+              <div class="cart__text-container__form">
+                <p class="text__value">99.900 kr.-</p>
+                <p>Fjöldi:</p>
+                <form action="">
+                    <input type="text" value="1">
+                    <button><img src="../img/cart.svg" alt="" class="form__cart">Uppfæra</button>
+                    <button><img src="../img/cart.svg" alt="" class="form__cart">Eyða úr körfu</button>
+                </form>
+              </div>
             </div>
         </div>
-        <div class="cart__image-container">
-            <img src="../img/headphones.jpg" alt="">
+        <div class="cart__content-container">
+            <div class="cart__image-container">
+                  <img src="../img/headphones.jpg" alt="">
+            </div>
+            <div class="cart__text-container">
+              <div class="cart__text-container__text">
+                <h2>Hágæða heyrnatól</h2>
+                <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru hágæða?</p>
+              </div>
+              <div class="cart__text-container__form">
+                <p class="text__value">39.999 kr.-</p>
+                <p>Fjöldi:</p>
+                <form action="">
+                    <input type="text" value="2">
+                    <button><img src="../img/cart.svg" alt="" class="form__cart">Uppfæra</button>
+                    <button><img src="../img/cart.svg" alt="" class="form__cart">Eyða úr körfu</button>
+                </form>
+              </div>
+            </div>
           </div>
-          <div>
-            <div>
-              <h2></h2>
-              <p></p>
-              <p class="text__value"></p>
+        </div>
+          <div class="cart__info">
+              <div class="cart__info-container">
+                  <h2>Sendingarupplýsingar</h2>
+                  <div class="cart__info-container__form">
+                    <form action="">
+                        <p>Nafn:</p><input type="text">
+                        <p>Heimilisfang:</p><input type="text">
+                        <p>Póstnúmer:</p>
+                        <select>
+                            <option value="val"selected>-Velja Póstnúmer-</option>
+                            <option value="225">225</option>
+                            <option value="107">107</option>
+                            <option value="110">110</option>
+                          </select>
+                      </form>
+                  </div>
+                </div>
+                <div class="cart__info-container">
+                  <h2>Greiðsluupplýsingar</h2>
+                  <div class="cart__info-container__form">
+                    <form action="">
+                      <p>Kortanúmer:</p><input type="text">
+                      <p>Korthafi:</p><input type="text">
+                      <p>Gilditími</p>
+                      <div class="datepicker">
+                        <p>Mán</p>
+                        <select name="month">
+                            <option value="val" selected>-Velja mánuð-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
+                          <p>Ár</p>
+                          <select name="year">
+                            <option value="val" selected>-Velja ár-</option>
+                            <option value="2020">2020</option>
+                          </select>
+                      </div>
+                    </form>
+                  </div>
+                </div>
             </div>
-            <div>
-              <p>Fjöldi:</p>
-              <form action="">
-                  <input type="text" placeholder="1">
-                  <button><img src="../img/cart.svg" alt="">Uppfæra</button>
-                  <button><img src="../img/cart.svg" alt="">Eyða úr körfu</button>
-              </form>
-            </div>
-            <div>
-              <h2></h2>
-              <form action="">
-                <p>Nafn:</p><input type="text">
-                <p>Heimilisfang:</p><input type="text">
-                <p>Póstnúmer:</p>
-                <select>
-                    <option value="vel"selected>-Velja Póstnúmer-</option>
-                    <option value="225">225</option>
-                    <option value="107">107</option>
-                    <option value="110">110</option>
-                  </select>
-              </form>
-            </div>
-            <div>
-              <h2></h2>
-              <p>Kortanúmer:</p><input type="text">
-              <p>Korthafi:</p><input type="text">
-              <p>Gilditími</p>
-              <p>Mán</p>
-              <select name="month">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </select>
-                <p>Ár</p>
+            <div class="cart__container__button">
+              <button>Kaupa</button>
             </div>
         </div>
       </div>
