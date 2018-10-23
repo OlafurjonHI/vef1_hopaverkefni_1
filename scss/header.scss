@@ -40,6 +40,9 @@ header{
 	width:100%;
     justify-content: space-around;
 }
+.header__navlist li:last-child{
+	color:red;
+}
 .header__navitem{
 	width:$thirtythree;
 	font-weight:bold;
