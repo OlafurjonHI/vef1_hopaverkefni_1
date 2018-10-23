@@ -3,12 +3,22 @@ header{
 	background-color:$graentish;
 	display: flex;
 	margin-bottom: 2*$gutter;
+	justify-content: center;
+}
+.header__navbar{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	@media (max-width:699px){
+		    flex-direction: column;
+	}
 }
 .header__wrapper{
 	display:flex;
     text-align: center;
     flex-direction: column;
-    margin: 0 auto;
+    Justify-content: center;
+    max-width: 77em;
 }
 .header__maintitle{
 	margin-bottom:$gutter;
@@ -25,16 +35,16 @@ header{
 	flex-direction: row;
     flex-wrap: wrap;
 	text-transform:uppercase;
+    justify-content: space-around;
 }
 .header__navitem{
-	margin: 0 auto;
-	width:30%;
+	margin: 0 -10px 0 -10px;
+	width:$thirtythree;
 	font-weight:bold;
 	font-family:'Open-Sans';
 	letter-spacing:0.0625em;
-		@media (min-width: 700px) AND (max-width:999px ){
-		width:30%;
-		margin:0;
+		@media (min-width: 700px){
+		width:20%;
 	}
 
 }
@@ -46,7 +56,10 @@ header{
 .header__active__page{
 	text-decoration:underline;
 }
-
+ul.header__cart__list {
+    padding: 20px;
+    margin-top: -40px;
+}
 .header__navbar__cartlink{
 	font-family:"Open-Sans";
 	text-transform: none;
@@ -56,10 +69,9 @@ header{
  	list-style-image: url("img/cart.svg");
  	list-style-position: inside;
     font-size:2.25em;
-	
-	@media (min-width: 700px) AND (max-width:999px ){
-		width:100%;
-		justify-content: flex-end;
+	@media (min-width: 700px){
+		width:20%;
+		
 	}
 
 
@@ -69,4 +81,5 @@ header{
 	font-size:21px;
 	letter-spacing: 0em;;
 	vertical-align: middle;
+
 }

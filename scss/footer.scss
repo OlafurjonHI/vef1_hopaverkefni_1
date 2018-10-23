@@ -24,6 +24,8 @@ footer>div>div>ul>li{
 	width:100%;
 	display:flex;
 	flex-wrap: wrap;
+	max-width: 77em;
+    margin: 0 auto;
 }
 .footer__col{
 	padding: $gutter;
