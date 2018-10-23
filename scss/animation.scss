@@ -5,24 +5,3 @@
 	transition: background-color 0.3s ease-in-out;
 }
 
-.Staff__main__wrap:hover{
-	transform: rotateY(180deg);
-}
-
-.Staff__main__col__img{
-	backface-visibility: hidden;
-	display:flex;
-	align-items: center;
-	justify-content: center;
-}
-.Staff__main__wrap{
-	transform-style: preserve-3d;
-	transition: transform 0.3s ease-in-out;
-}
-.Staff__main__col__backface{
-	backface-visibility: hidden;
-	text-align: center;
-	display: block;
-	align-items: center;
-	transform: rotateY(180deg);
-}
