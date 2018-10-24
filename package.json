@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "browser-sync": "^2.26.0",
+    "lint": "^1.1.2",
     "node-sass": "^4.9.3",
     "postcss": "^7.0.5",
     "sass": "^1.14.3",
@@ -17,7 +18,7 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "npm-run-all --parallel sass sass-watch browser-sync",
-    "lint": "stylelint styles.scss --syntax scss"
+    "lint": "stylelint styles.scss scss/*.scss --syntax scss"
   },
   "repository": {
     "type": "git",

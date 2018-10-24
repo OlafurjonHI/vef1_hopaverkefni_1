@@ -5,7 +5,104 @@ header{
 	margin-bottom: 2*$gutter;
 	justify-content: center;
 }
+
+.header__wrapper{
+	display:flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 77em;
+    width:100%;
+
+}
+.header__maintitle{
+	margin-bottom:$gutter;
+	font-family:"Oswald";
+	font-size:2.25em;
+	letter-spacing:0.0625em;
+	max-height:4*$gutter;
+}
 .header__navbar{
+	display:flex;
+	justify-content: center;
+		@media (max-width:699px){
+		 
+	}
+}
+.header__navlist{
+	display:flex;
+	font-size:21px;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+	justify-content:center;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+.header__navitem{
+	padding:20px 10px 10px 10px;
+	font-weight:bold;
+	//width:25%;
+	letter-spacing:0.0625em;
+	text-decoration:none;
+		@media (max-width:699px){
+	 	//width:30%;
+
+	}
+}
+.header__navbar__cartlink{
+	  justify-content: flex-end;
+
+}
+.header__navitem>a{
+	text-decoration:none;
+	color:black;
+	text-transform:uppercase;
+}
+
+.header__navbar__cartlink__text{
+	display:list-item;
+	list-style-image: url("img/cart.svg");
+ 	list-style-position: inside;
+ 	font-size:2.25em;
+ 	Line-height: 0;
+ 	white-space: nowrap;
+ 	padding-bottom:20px;
+
+}
+.header__navlist .header__navitem:first-child{
+			@media (min-width:510px){	 	
+	 	margin-left:auto;
+	}
+	
+}
+.header__navlist .header__navitem:nth-child(2){
+	
+}
+.header__navlist .header__navitem:nth-child(3){
+	    @media (min-width:510px){	
+	    margin-right: -140px;
+	}
+}
+.header__navlist .header__navitem:nth-child(4){
+			@media (min-width:510px){	 	
+	 	margin-left:auto;
+	 	margin-right:10px;
+	}
+	
+	
+}
+span.header__navbar__cartlink__textspan{
+	white-space: nowrap;
+ 	text-transform: none;
+	font-weight:normal;
+	vertical-align:middle;
+	font-size:21px;
+	 letter-spacing: 0em;;
+}
+.header__active__page{
+	text-decoration:underline;
+}
+/*.header__navbar{
 	width:100%;
 	display:flex;
 	line-height: 2em;
@@ -58,6 +155,7 @@ header{
 	color:$svartur;
 }
 
+
 .header__active__page{
 	text-decoration:underline;
 }
@@ -101,3 +199,4 @@ ul.header__cart__list {
 	vertical-align: middle;
 
 }
+*/
