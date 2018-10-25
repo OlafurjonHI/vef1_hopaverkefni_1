@@ -70,6 +70,11 @@
         }
     }
 }
+.main__text-container__form>form>button:hover{
+    background-color:$ljosrautt;
+    transition: background-color 0.3s ease-in-out;
+}
+
 .main__text-container__text {
     h2 {
         font-size: 2em;
