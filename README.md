@@ -1,4 +1,58 @@
 
+## Upplýsingar um verkefnið
+
+### Keyrsla verkefnis
+Til að keyra verkefnið er hægt að sækja repoið og einfaldlega færa cmd eða terminal gluggann í möppuna sem þetta er og keyra:
+__npm run browser-sync__
+þá fer í gang localhost en til að geta gert þessa skipu þarf að vera sett upp node.js á vélina, einnig er hægt að keyra heimasíðuna gegnum þetta heimasvæði: https://notendur.hi.is/ojv1/vefforritun/h1/
+
+
+### Uppsetning verkefnis
+Heimasíðan er sett upp þannig að í rótinni þar sem index skráin er þar er einnig __styles.css__ ásamt __grid.css__ sem index síðar kallar beint í. fyrir utasíðar möppur með gefnu efni og útliti frá kennara eru möppurnar
+* __fonts__
+* __img__
+* __pages__
+* __scss__
+
+#### fonts
+okkur þótti skynsamlegra að eiga til fontinn sem eru ekki gjarnan innbyggð bara á servernum eða í rót verkefnisins þannig að við bættum við eins og t.d. Oswald og OpenSans og köllum á með __@font-face__ í __styles.scss__
+
+#### img
+í __img__ möppunni eru allar myndir sem við notuðum til að birta bæði starfsmennina og vörur ásamt myndum á forsíðu skv. fyrirmynd kennara, við vorum ekki að fara í það að vera með undirmöppur og flokka það nánar þar sem þetta var ekki ógrynni af myndum en í svona stærra og flóknara væri maður eflaust með betri sortunarferli á þessu
+
+#### pages
+í __pages__ möppuni felum við aukaundirsíðurnar eins og __cart.html__, __products.html__, __staff.html__ og kalla þær síðan í aðal __styles.css__ skjalið frá rót verkefnisins ásamt myndum og því sem er notað af hverri síðu fyrir sig.
+
+#### scss
+Við fórum kannski svolítið overboard í hugsununum þarna en við ætluðum að henda í __scss__ nánast fyrir hvert tilkvik að síðu, bæði til að forðast að við værum við puttana í skjali hjá hvor öðrum og einnig því það var bara svolítið kúl. en í möppunni __scss__ þá eru 10 __scss__ skjöl sem að eru síðan importuð með npm sass og keyrð til að vera hluti af einu stóru __styles.css__ skjali sem að html skrárnar lesa og túlka. __scss__ skrár sem við vorum að vinna með sem voru kannski "in hindsight" óþarfi eða gátu verið hluti af öðrum voru skrárnar eins og 
+
+* __animation.scss__
+* __fonts.scss__
+* __variables.scss__
+
+animationið hefði t.d. þar sem að við vorum ekki að vinna með einhver massa keyframes og þannig bara mátt eiga heima í viðeigandi scss skjali fyrir sína síðu, sama gildir um __fonts.scss__ það í raun hefði bara mátt eiga heima annahvort í __styles.scss__ eða __config.scss__ en meina hey...
+
+en skipulagið var í raun ósköp einfalt það er spes scss skjal fyrir footer og header og þar sem hausinn og fóturinn á öllum síðum var meira og minna alveg eins fyrir utan breytingar á active_page þá er það notað í raun á öllum síðum en annars var skipulagið svona:
+* __index.html__ <-> __index.scss__ 
+* __staff.html__ <-> __Staff.scss__ 
+* __cart.html__ <-> __cart.scss__ 
+* __products.html__ <-> __products.scss__ 
+* __*.html__ <-> __footer.html__ && __header.html__
+
+en eftir að þessu er compileað með __sass__ þá verður þetta allt undir einu __styles.css__
+* __*.html__ <-> __styles.css__
+
+#### Upplýsingar um þá sem unnu verkefni
+Hópurinn samanstóð af þremur einstaklingum
+* __sot13@hi.is__ - Styrmir Óli Þorsteinsson
+* __jva5@hi.is__ - 	Jón Valgeir Aðalsteinsson
+* __ojv1@hi.is__ - Ólafur Jón Valgeirsson
+
+Skiptum við meira og minna bara heimasíðunum með okkur og unnum saman að fínpússun og yfirferð og fórum yfir og gagngrýndum hjá hvor öðrum til að komast sem næst lausninni
+
+
+## Lýsingar frá Kennara
+*** 
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
