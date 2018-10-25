@@ -147,9 +147,18 @@
         margin: 3em auto;
         width: 50%;
         height: 3em;
+        border-radius: 4px;
+        font-size: 21px;
+        background-color:$ljosrautt;
+
         @media screen and (min-width:700px){
-            width: 25%;
+            width: 32%;
         }  
+    }
+    button:hover {
+        color:$ljosrautt;
+        background-color:$svartur;
+        transition: background-color 0.3s ease-in-out;
     }
 
 }
