@@ -85,6 +85,8 @@
     justify-content: space-between;
     @media screen and (min-width:700px){
         flex-direction: row;
+        width: 70%;
+        margin: 0 auto;
     }
     @media screen and (min-width:1000px){
         width: 70%;
