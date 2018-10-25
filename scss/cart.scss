@@ -142,11 +142,13 @@
 }
 .cart__container__button {
     width: 100%;
+
     display: flex;
     button {
         margin: 3em auto;
         width: 50%;
         height: 3em;
+        border:none;
         border-radius: 4px;
         font-size: 21px;
         background-color:$ljosrautt;

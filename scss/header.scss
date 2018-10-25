@@ -45,7 +45,7 @@ header{
 	letter-spacing:0.0625em;
 	text-decoration:none;
 		@media (max-width:699px){
-	 	//width:30%;
+	 	width:33.3333%;
 
 	}
 }
@@ -70,7 +70,7 @@ header{
 
 }
 .header__navlist .header__navitem:first-child{
-			@media (min-width:510px){	 	
+			@media (min-width:699px){	 	
 	 	margin-left:auto;
 	}
 	
@@ -79,12 +79,12 @@ header{
 	
 }
 .header__navlist .header__navitem:nth-child(3){
-	    @media (min-width:510px){	
+	    @media (min-width:699px){	
 	    margin-right: -140px;
 	}
 }
 .header__navlist .header__navitem:nth-child(4){
-			@media (min-width:510px){	 	
+			@media (min-width:699px){	 	
 	 	margin-left:auto;
 	 	margin-right:10px;
 	}
@@ -98,6 +98,9 @@ span.header__navbar__cartlink__textspan{
 	vertical-align:middle;
 	font-size:21px;
 	 letter-spacing: 0em;;
+	 @media (max-width:699px){
+	 	width:100%;
+	 }
 }
 .header__active__page{
 	text-decoration:underline;
