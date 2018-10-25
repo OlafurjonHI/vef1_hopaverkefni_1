@@ -18,6 +18,7 @@
 	padding-right:$gutter / 2;
 		@media (min-width: 700px){
 		width:50%;
+		margin-bottom:2*$gutter;
 
 	}
 
@@ -37,7 +38,6 @@
 
 .main__col__content{
 	display: flex;
-	font-family:"Helvetica";
 	 flex-direction: row;
     flex-wrap: wrap;
   	width: 100%;
@@ -48,23 +48,36 @@
 	width:100%;
 }
 .main__col__text__h2{
-	font-family:"Oswald";
 	font-size:3em;
     margin-bottom:2*$gutter;
 }
 .main__col__text__p{
-	font-size:2em;
+	font-size:1.8em;
 	margin-bottom:2*$gutter;
 	@media (min-width: 700px) {
-		font-size:1.6em;
+		font-size:1.5em;
 	}
 }
 .main__col__text>*{
 	
+}
+.main__col:nth-of-type(2)>.main__col__image{
+
+	@media (min-width:700px) AND (max-width:999px){
+	 margin-right:-20px;
+	 margin-left:0px;
+	}
+	@media (max-width:699px){
+		margin-left:-20px;
+	}
+
 }		
 .main__col__image{
+   // width: 110%;
 
-	width:100%;
+    @media(max-width: 999px){
+    	    margin-left: -20px;
+    }
 
 }
 .main__col__img {
