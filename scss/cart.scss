@@ -146,3 +146,7 @@
     }
 
 }
+.cart__text-container__form>form>button:hover{
+    background-color:$ljosrautt;
+    transition: background-color 0.3s ease-in-out;
+}
