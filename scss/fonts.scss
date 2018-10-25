@@ -5,18 +5,25 @@
   font-style: normal;
   font-weight: 400;
 }
+@font-face
+{
+  font-family: 'Oswald-Bold';
+  src: url(fonts/Oswald/Oswald-Bold.ttf), url(../fonts/Oswald/Oswald-Bold.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
 
 @font-face
 {
   font-family: 'Open-Sans';
-  src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+  src: url(fonts/OpenSans/OpenSans-Regular.ttf), url(../fonts/OpenSans/OpenSans-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face
 {
-  font-family: 'Open-Sans-ExtraBold';
-  src: url(fonts/OpenSans/OpenSans-ExtraBold.ttf);
+  font-family: 'Open-Sans-SemiBold';
+  src: url(fonts/OpenSans/OpenSans-SemiBold.ttf), url(../fonts/OpenSans/OpenSans-SemiBold.ttf);
   font-style: normal;
   font-weight: 400;
 }

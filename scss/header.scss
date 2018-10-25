@@ -16,7 +16,7 @@ header{
 }
 .header__maintitle{
 	margin-bottom:$gutter;
-	font-family:"Oswald";
+	font-family:"Oswald-Bold";
 	font-size:2.25em;
 	letter-spacing:0.0625em;
 	max-height:4*$gutter;
@@ -40,6 +40,7 @@ header{
 }
 .header__navitem{
 	padding:20px 10px 10px 10px;
+	font-family:"Open-Sans-SemiBold";
 	font-weight:bold;
 	//width:25%;
 	letter-spacing:0.0625em;

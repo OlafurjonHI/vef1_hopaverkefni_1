@@ -3,11 +3,11 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: $gutter;
+    margin-bottom: 3*$gutter;
 }
 .main__container {
     font-family:'Open-Sans';
-    margin-bottom: $gutter*5;
+    margin-bottom: $gutter;
     display: flex;
     flex-wrap: wrap;
     @media screen and (min-width:700px) {
@@ -80,11 +80,20 @@
 
 .main__text-container__text {
     h2 {
-        font-size: 2em;
+        font-size: 2.6em;
         font-weight: bold;
     }
 }
-.text__value {
+.main__text-container__text>p {
     font-size: 1.3em;
+    padding: 20px 0 20px 0;
+}
+.form__button>p{
+    vertical-align:center;
+}
+.text__value {
+    font-size: 1.7em;
     font-weight: bold;
+    font-family: Oswald;
+    padding-bottom: 10px;
 }
