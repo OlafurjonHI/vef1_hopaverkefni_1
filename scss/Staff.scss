@@ -55,6 +55,13 @@
   transform: rotateY(180deg);
 }
 
+.Staff__main__col__text__h1 {
+	font-size:2.25em;
+}
+
+.Staff__main__col__text__p {
+	font-size: 1.3em;
+}
 @media screen and (min-width: 500px) {
   .Staff__main__col__backface {
     top: 43%;
