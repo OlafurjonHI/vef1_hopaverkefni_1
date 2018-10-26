@@ -17,16 +17,19 @@
   margin-bottom: $gutter;
   font-family: Open-Sans;
   flex-wrap: wrap;
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 699px) {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    padding: 0 10px;
     flex-direction: row;
 
   }
   @media screen and (min-width: 999px) {
     width: 32%;
+    padding: 0 10px;
+  }
+  @media screen and (max-width: 699px) {
+    padding: 20px 0;
   }
 }
 
