@@ -10,6 +10,7 @@
     "postcss": "^7.0.5",
     "sass": "^1.14.3",
     "stylelint": "^9.6.0",
+    "stylelint-config-primer": "^2.2.11",
     "templatejs": "^1.0.0"
   },
   "devDependencies": {},

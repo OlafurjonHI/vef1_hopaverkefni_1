@@ -78,9 +78,6 @@
         button:nth-of-type(1) {
             margin-right: 1em;
         }
-        button:nth-of-type(2) {
-           // line-height: 1;
-        }
     }
 }
 .cart__info {
@@ -162,24 +159,23 @@
         margin: 3em auto;
         width: 60%;
         height: 3em;
-        border:none;
+        border: none;
         border-radius: 4px;
         font-size: 1em;
-        background-color:$ljosrautt;
-
+        background-color: $ljosrautt;
         @media screen and (min-width:700px){
             width: 40%;
         }  
     }
     button:hover {
-        color:$ljosrautt;
-        background-color:$svartur;
+        color: $ljosrautt;
+        background-color: $svartur;
         transition: background-color 0.3s ease-in-out;
     }
 
 }
 .cart__text-container__form>form>button:hover{
-    background-color:$ljosrautt;
+    background-color: $ljosrautt;
     transition: background-color 0.3s ease-in-out;
 }
 .cart__text-container__text{
@@ -187,6 +183,6 @@
         font-size: 2.2em;
     }
     p{
-        padding:$gutter 0;
+        padding: $gutter 0;
     }
 }

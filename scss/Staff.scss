@@ -1,23 +1,24 @@
-
-.Staff__main__wrap{
+.Staff__main__wrap {
 	align-items: center;
 }
+
 .Staff__main__row{
-	display:flex;
-	flex-direction:column;
-	margin-left:-10px;
-	margin-right:-10px;
+	display: flex;
+	flex-direction: column;
+	margin-left: -10px;
+	margin-right: -10px;
 	margin-bottom: 40px;
-	@media (min-width:700px){
+	@media (min-width: 700px){
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 }
+
 .Staff__main__col{
-	width:100%;
-	padding-left:10px;
-	padding-right:10px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 	@media (min-width: 700px){
 		width: 50%;
 	}
@@ -33,18 +34,21 @@
 .Staff__main__col__img{
 	backface-visibility: hidden;
 	justify-content: center;
-	width:100%;
+	width: 100%;
 }
+
 .Staff__main__col__img>img{
-	width:100%;
+	width: 100%;
 }
+
 .Staff__main__wrap{
 	transform-style: preserve-3d;
 	transition: transform 0.3s ease-in-out;
 	justify-content: center;
-	display:flex;
+	display: flex;
 	margin-bottom: 20px;
 }
+
 .Staff__main__col__backface{
 	backface-visibility: hidden;
 	text-align: center;

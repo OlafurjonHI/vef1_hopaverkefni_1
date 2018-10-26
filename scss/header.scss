@@ -1,83 +1,69 @@
 header{
-	width:100vw;
-	background-color:$graentish;
+	width: 100vw;
+	background-color: $graentish;
 	display: flex;
 	margin-bottom: 2*$gutter;
 	justify-content: center;
 }
-
 .header__wrapper{
-	display:flex;
+	display: flex;
     text-align: center;
     flex-direction: column;
     max-width: 77em;
-    width:100%;
-
+    width: 100%;
 }
 .header__maintitle{
-	margin-bottom:$gutter;
-	font-family:"Oswald-Bold";
-	font-size:2.25em;
-	letter-spacing:0.0625em;
-	max-height:4*$gutter;
+	margin-bottom: $gutter;
+	font-family: "Oswald-Bold";
+	font-size: 2.25em;
+	letter-spacing: 0.0625em;
+	max-height: 4*$gutter;
 }
 .header__navbar{
-	display:flex;
+	display: flex;
 	justify-content: center;
-		@media (max-width:700px){
-		 
-	}
 }
 .header__navlist{
-	display:flex;
-	font-size:21px;
-	flex-direction:row;
-	flex-wrap:wrap;
-	width:100%;
-	justify-content:center;
-	margin-left:-10px;
-	margin-right:-10px;
+	display: flex;
+	font-size: 21px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 .header__navitem{
-	padding:20px 10px 10px 10px;
-	font-family:"Open-Sans-SemiBold";
-	font-weight:bold;
-	//width:25%;
-	letter-spacing:0.0625em;
-	text-decoration:none;
-		@media (max-width:699px){
-	 	//width:33.3333%;
-
-	}
+	padding: 20px 10px 10px 10px;
+	font-family: "Open-Sans-SemiBold";
+	font-weight: bold;
+	letter-spacing: 0.0625em;
+	text-decoration: none;
 }
 .header__navbar__cartlink{
 	  justify-content: flex-end;
 	  		@media (max-width:700px){	 	
-	 	width:100%;
+	 	width: 100%;
 	 }
-
 }
 .header__navitem>a{
-	text-decoration:none;
-	color:black;
-	text-transform:uppercase;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
 }
-
 .header__navbar__cartlink__text{
-	display:list-item;
+	display: list-item;
 	list-style-image: url("img/cart.svg");
  	list-style-position: inside;
- 	font-size:2.25em;
+ 	font-size: 2.25em;
  	Line-height: 0;
  	white-space: nowrap;
- 	padding-bottom:20px;
-
+ 	padding-bottom: 20px;
 }
 .header__navlist .header__navitem:first-child{
 			@media (min-width:699px){	 	
-	 	margin-left:auto;
+	 	margin-left: auto;
 	}
-	
 }
 .header__navlist .header__navitem:nth-child(2){
 	
@@ -89,121 +75,22 @@ header{
 }
 .header__navlist .header__navitem:nth-child(4){
 			@media (min-width:700px){	 	
-	 	margin-left:auto;
-	 	margin-right:10px;
+	 	margin-left: auto;
+	 	margin-right: 10px;
 	}
-	
 	
 }
 span.header__navbar__cartlink__textspan{
 	white-space: nowrap;
  	text-transform: none;
-	font-weight:normal;
-	vertical-align:middle;
-	font-size:21px;
+	font-weight: normal;
+	vertical-align: middle;
+	font-size: 21px;
 	 letter-spacing: 0em;;
 	 @media (max-width:700px){
-	 	width:100%;
+	 	width: 100%;
 	 }
 }
 .header__active__page{
 	text-decoration:underline;
 }	
-/*.header__navbar{
-	width:100%;
-	display:flex;
-	line-height: 2em;
-	justify-content:center;
-	@media (max-width:699px){
-		    flex-direction: column;
-	}
-}
-.header__wrapper{
-	display:flex;
-    text-align: center;
-    flex-direction: column;
-    Justify-content: center;
-    max-width: 77em;
-    width:100%;
-}
-.header__maintitle{
-	margin-bottom:$gutter;
-	font-family:"Oswald";
-	font-size:2.25em;
-	letter-spacing:0.0625em;
-	max-height:4*$gutter;
-}
-.header__navlist{
-	padding:$gutter;
-	list-style:none;
-	display:flex;
-	font-size:21px;
-	flex-direction: row;
-    flex-wrap: wrap;
-	text-transform:uppercase;
-	width:100%;
-    justify-content: space-around;
-}
-.header__navlist list-style:last-child{
-	color:red;
-}
-.header__navitem{
-	width:$thirtythree;
-	font-weight:bold;
-	font-family:'Open-Sans';
-	letter-spacing:0.0625em;
-		@media (min-width: 700px){
-		width:20%;
-	}
-
-}
-.header__navitem>a{
-	text-decoration:none;
-	color:$svartur;
-}
-
-
-.header__active__page{
-	text-decoration:underline;
-}
-ul.header__cart__list {
-    padding: 20px;
-    margin-top: -40px;
-}
-.header__navbar__cartlink{
-	font-family:"Open-Sans";
-	text-transform: none;
-    font-weight:normal;
- 	white-space: nowrap;
- 	letter-spacing: 0em;;
- 	list-style-image: url("img/cart.svg");
- 	list-style-position: inside;
-    font-size:2.25em;
-        margin-top: -30px;
-	@media (min-width: 700px){
-		width:20%;
-		margin-top:0px;
-		flex: 1;
-		text-align: end;
-	}
-
-
-}
-
-.header__navbar__cart{
-	    padding: 20px;
-    display: flex;
-    justify-content:center;
-    flex: 1 1 0;
-    font-size: 21px;
-   	width:100%;
-
-}
-.header__navbar__cartlink__text
-{
-	font-size:21px;
-	letter-spacing: 0em;;
-	vertical-align: middle;
-
-}
-*/

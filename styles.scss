@@ -1,7 +1,5 @@
 @import "scss/config";
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -16,27 +14,27 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-  font-size:16px;
+  font-size: 16px;
   // TODO fleiri grunn stillingar	
 }
-body{
+body{  /* stylelint-disable-line */
 	grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start];
 }
-main{
+
+main{ /* stylelint-disable-line */
 	max-width: 77em;
-  	padding-left: 20px;
-  	padding-right: 20px;
- 	margin:auto;
-}
+  padding-left: 20px;
+  padding-right: 20px;
+ 	margin: auto;
+}  /* stylelint-disable-line */
 h1,h2,h3,h4,h5,h6{
-  font-family:"Oswald","Verdana","Serif";
-}
-p,a,label{
-  font-family:"Open-Sans","helvetica","arial","sans-serif";
+  font-family: "Oswald","Verdana","Serif";
 }
 
+p,a,label{  /* stylelint-disable-line */
+  font-family: "Open-Sans","helvetica","arial","sans-serif";
+}
 
-// TODO sækja allar sass skrár
 @import "scss/variables.scss";
 @import "scss/animation.scss";
 @import "scss/fonts.scss";
@@ -46,4 +44,3 @@ p,a,label{
 @import "scss/Staff.scss";
 @import "scss/products.scss";
 @import "scss/cart.scss";
-
