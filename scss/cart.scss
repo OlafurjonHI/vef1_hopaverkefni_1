@@ -93,6 +93,7 @@
       background-color: white;
       border: 1px solid;
       border-radius: 4px;
+      line-height: 1;
 
       @media screen and (min-width: 699px) {
         max-width: 100%;
@@ -166,7 +167,7 @@
                     margin-bottom: 1em;
                 }
                 .cart__info__select {
-                    height: 3em;
+                    height: 2em;
                     border: 1px solid;
                     border-radius: 4px;
                 }
@@ -191,7 +192,7 @@
 .cart__container__button {
   display: flex;
   width: 100%; 
-  button {
+  .cart__buy__button {
     height: 3em;
     width: 60%;
     margin: 3em auto;
@@ -203,11 +204,11 @@
       width: 40%;
     }  
   }
-  .cart__form__checkout__button:hover {
-    color:$ljosrautt;
-    background-color:$svartur;
-    transition: background-color 0.3s ease-in-out;
-  }
+}
+.cart__buy__button:hover {
+  color:$ljosrautt;
+  background-color:$svartur;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .cart__text-container__form > .cart__form__checkout > .cart__form__checkout__button:hover{
