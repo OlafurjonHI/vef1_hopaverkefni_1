@@ -1,65 +1,62 @@
+
 .Staff__main__wrap {
-	align-items: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  justify-content: center;
 }
 
-.Staff__main__row{
-	display: flex;
-	flex-direction: column;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-bottom: 40px;
-	@media (min-width: 700px){
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
+.Staff__main__row {
+  display: flex;
+  margin-right: -10px;
+  margin-bottom: 40px;
+  margin-left: -10px;
+  flex-direction: column;
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
-.Staff__main__col{
-	width: 100%;
-	padding-left: 10px;
-	padding-right: 10px;
-	@media (min-width: 700px){
-		width: 50%;
-	}
-	@media (min-width: 1000px){
-		width: 50%;
-	}
+.Staff__main__col {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  @media (min-width: 700px) {
+    width: 50%;
+  }
+  @media (min-width: 1000px) {
+    width: 50%;
+  }
 }
 
-.Staff__main__wrap:hover{
-	transform: rotateY(180deg);
+.Staff__main__wrap:hover {
+  transform: rotateY(180deg);
 }
 
-.Staff__main__col__img{
-	backface-visibility: hidden;
-	justify-content: center;
-	width: 100%;
+.Staff__main__col__img {
+  backface-visibility: hidden;
+  justify-content: center;
+  width: 100%;
 }
 
-.Staff__main__col__img>img{
-	width: 100%;
+.Staff__main__col__img > .Staff__img {
+  width: 100%;
 }
 
-.Staff__main__wrap{
-	transform-style: preserve-3d;
-	transition: transform 0.3s ease-in-out;
-	justify-content: center;
-	display: flex;
-	margin-bottom: 20px;
+.Staff__main__col__backface {
+  backface-visibility: hidden;
+  position: absolute;
+  line-height: 2;
+  text-align: center;
+  transform: rotateY(180deg);
 }
 
-.Staff__main__col__backface{
-	backface-visibility: hidden;
-	text-align: center;
-	transform: rotateY(180deg);
-	position: absolute;
-	line-height: 2;
+@media screen and (min-width: 500px) {
+  .Staff__main__col__backface {
+    top: 43%;
+  }
 }
-
-@media screen and (min-width: 500px){
-	.Staff__main__col__backface{
-		top: 43%;
-	}
-}
-

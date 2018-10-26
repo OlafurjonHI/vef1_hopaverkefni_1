@@ -18,22 +18,15 @@
     margin-bottom: $gutter;
     display: flex;
     flex-wrap: wrap;
-    @media screen and (max-width: 999px){
-        padding: 10px 10px;
-
-    }
     @media screen and (min-width: 700px) {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: 50%;
-        
+        padding: 0 10px 0 10px;
     }
     @media screen and (min-width: 999px){
-       width: 32%;
-    }
-    @media screen and (max-width: 699px){
-        padding: 10px 0px 0px 0px;
+        width: 32%;
     }
 }
 .main__image-container {
@@ -42,11 +35,6 @@
         width: 100%;
     }
 }
-button:hover{
-    background-color: $ljosrautt;
-    transition: background-color 0.3s ease-in-out;
-}
-
 .main__text-container{
     width: 100%;
     display: flex;
@@ -58,7 +46,44 @@ button:hover{
     @media screen and (min-width: 700px){
         height: 35%;       
     }
-    .main__text-container__form {
+
+.form__button:hover{
+    
+    background-color: $ljosrautt;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.main__text-container__form__button__content{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main__text-container__text {
+    h2 {
+        font-size: 2.6em;
+        font-weight: bold;
+    }
+}
+
+.main__text-container__text>span {
+    font-size: 1.3em;
+    padding: 20px 0 20px 0;
+}
+
+.form__button>span{
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+}
+.text__value {
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: Oswald;
+    padding-bottom: 10px;
+}
+ .main__text-container__form {
         form {
             p {
                 //width: 75%;
@@ -97,36 +122,4 @@ button:hover{
             }
         }
     }
-}
-
-
-.main__text-container__form__button__content{
-    display: inline-flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.main__text-container__text {
-    h2 {
-        font-size: 2.6em;
-        font-weight: bold;
-    }
-}
-
-.main__text-container__text>span {
-    font-size: 1.3em;
-    padding: 20px 0 20px 0;
-}
-
-.form__button>span{
-    width: 80%;
-    text-align: center;
-    font-size: 16px;
-    text-align: center;
-}
-.text__value {
-    font-size: 1.7em;
-    font-weight: bold;
-    font-family: Oswald;
-    padding-bottom: 10px;
 }
