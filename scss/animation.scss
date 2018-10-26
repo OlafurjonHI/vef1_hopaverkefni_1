@@ -4,21 +4,16 @@
   background-color: $svartur;
   transition: background-color 0.3s ease-in-out;
 }
-.footer__col > ul > li > a:hover {
-  color: black;
+.footer__col > ul > li > a:hover { /* stylelint-disable-line */
+  color: $svartur;
   transition: color 0.3s ease-in-out;
 }
-.header__navitem > a:hover {
+.header__navitem > a:hover { /* stylelint-disable-line */
   color: $hvitur;
   transition: color 0.3s ease-in-out;
 }
 
-.main__text-container__form > .main__product.form > .form__button:hover {
-  background-color: $ljosrautt;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.cart__text-container__form > form > button:hover {
+.main__product.form > .form__button:hover {
   background-color: $ljosrautt;
   transition: background-color 0.3s ease-in-out;
 }
