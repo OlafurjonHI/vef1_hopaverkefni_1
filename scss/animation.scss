@@ -1,26 +1,24 @@
 
-.main__col__content__bigbutton:hover{
-	color: $ljosrautt;
-	background-color: $svartur;
-	transition: background-color 0.3s ease-in-out;
+.main__col__content__bigbutton:hover {
+  color: $ljosrautt;
+  background-color: $svartur;
+  transition: background-color 0.3s ease-in-out;
 }
-.footer__col>ul>li>a:hover{
-	color: black;
-	transition: color 0.3s ease-in-out;
+.footer__col > ul > li > a:hover {
+  color: black;
+  transition: color 0.3s ease-in-out;
 }
-.header__navitem>a:hover{
-	color: $hvitur;
-	transition: color 0.3s ease-in-out;
+.header__navitem > a:hover {
+  color: $hvitur;
+  transition: color 0.3s ease-in-out;
 }
-.main__text-container__form>form>button:hover{
-	background-color: $ljosrautt;
-	transition: background-color 0.3s ease-in-out;
+
+.main__text-container__form > .main__product.form > .form__button:hover {
+  background-color: $ljosrautt;
+  transition: background-color 0.3s ease-in-out;
 }
-.cart__text-container__form>form>button:hover{
-	background-color: $ljosrautt;
-	transition: background-color 0.3s ease-in-out;
-}
-button.form__button:hover{
-	background-color: $ljosrautt;
-	transition: background-color 0.3s ease-in-out;
+
+.cart__text-container__form > form > button:hover {
+  background-color: $ljosrautt;
+  transition: background-color 0.3s ease-in-out;
 }
