@@ -2,9 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-right: -10px;
   margin-bottom: 3*$gutter;
-  margin-left: -10px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -70,29 +68,26 @@
     }
   }
 
-  .main__text-container__text > span {
+  .main__text-container__text > .form__button__text {
+    padding: 20px 0;
     font-size: 1.3em;
-    padding: 20px 0 20px 0;
   }
 
-  .form__button > span {
+  .form__button > .form__button__text {
     width: 80%;
-    text-align: center;
     font-size: 16px;
     text-align: center;
-}
+  }
 
   .text__value {
-    font-size: 1.7em;
-    font-weight: bold;
-    font-family: Oswald;
     padding-bottom: 10px;
-}
-  .main__text-container__form {
-    form {
-      p {
-      //width: 75%;
+    font-size: 1.7em;
+    font-family: Oswald;
+    font-weight: bold;
   }
+
+  .main__text-container__form {
+    .main__product__form {
         .form__cart {
           height: 24px;
           width: 24px;
