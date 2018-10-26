@@ -6,7 +6,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
+.product__main__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
 .product__main__container > .main__container:nth-child(5) {
   display: flex;
   justify-content: flex-start;
@@ -14,7 +19,6 @@
 
 .main__container {
   display: flex;
-  //margin-bottom: $gutter;
   font-family: Open-Sans;
   flex-wrap: wrap;
   @media screen and (min-width: 699px) {
@@ -25,7 +29,7 @@
 
   }
   @media screen and (min-width: 999px) {
-    width: 32%;
+    width: 33.3333%;
     //padding: 0 10px;
   }
   @media screen and (max-width: 699px) {

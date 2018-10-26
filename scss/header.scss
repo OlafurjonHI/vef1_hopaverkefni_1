@@ -72,8 +72,7 @@ header { /* stylelint-disable-line */
 }
 
 .header__navlist .header__navitem:first-child {
-
-  @media (min-width: 699px) {
+  @media (min-width: 700px) {
     margin-left: auto;
   }
 

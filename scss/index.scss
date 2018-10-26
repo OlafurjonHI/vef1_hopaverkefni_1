@@ -48,6 +48,9 @@
 .main__col__text {
   width: 100%;
   height: 100%;
+  @media (min-width: 1000px) {
+    margin-top: 4*$gutter;
+  }
 }
 
 .main__col__text__h2 {

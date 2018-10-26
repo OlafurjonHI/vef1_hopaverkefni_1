@@ -140,7 +140,7 @@
       display: flex;
       flex-direction: column;
 
-      input {
+      .cart__info__input {
         width: 20%;
         height: 3em;
         padding-left: 1em;
@@ -152,7 +152,7 @@
           width: 57.5%;
         }
       }
-            form {
+            .cart__info__form {
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -160,32 +160,32 @@
                 p, input, select {
                     width: 50%;
                 }
-                input {
+                .cart__info__input {
                     margin-right: 0;
 
                     margin-bottom: 1em;
                 }
-                select {
+                .cart__info__select {
                     height: 3em;
                     border: 1px solid;
                     border-radius: 4px;
                 }
-                .datepicker {
-                    width: 50%;
-                    display: flex;
-                    flex-direction: row;
-                    select {
-                        width: 70%;
-                        height:2em;
-                    }
-                }
+                  .datepicker {
+    width: 50%;
+     display: flex;
+     flex-direction: row;
+     select {
+        width: 70%;
+        height:2em;
+  }
+ } 
+              }
             }
         }
-        h2 {
+        .cart__info__h2{
             margin: 0.5em 0;
             font-size: 2em;
         }
-    }
 }
 
 .cart__container__button {
@@ -203,14 +203,14 @@
       width: 40%;
     }  
   }
-  button:hover {
+  .cart__form__checkout__button:hover {
     color:$ljosrautt;
     background-color:$svartur;
     transition: background-color 0.3s ease-in-out;
   }
 }
 
-.cart__text-container__form>form>button:hover{
+.cart__text-container__form > .cart__form__checkout > .cart__form__checkout__button:hover{
     background-color:$ljosrautt;
     transition: background-color 0.3s ease-in-out;
 }
