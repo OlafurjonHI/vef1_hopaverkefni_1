@@ -9,8 +9,9 @@
 .product__main__wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -10px;
-    margin-left: -10px;
+    //margin-right: -10px;
+    //margin-left: -10px;
+    justify-content: space-between;
 }
 .product__main__container > .main__container:nth-child(5) {
   display: flex;
@@ -29,7 +30,7 @@
 
   }
   @media screen and (min-width: 999px) {
-    width: 33.3333%;
+    width: 32%;
     //padding: 0 10px;
   }
   @media screen and (max-width: 699px) {
