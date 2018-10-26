@@ -18,15 +18,22 @@
     margin-bottom: $gutter;
     display: flex;
     flex-wrap: wrap;
+    @media screen and (max-width: 999px){
+        padding: 10px 10px;
+
+    }
     @media screen and (min-width: 700px) {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: 50%;
-        padding: 0 10px 0 10px;
+        
     }
     @media screen and (min-width: 999px){
-        width: 32%;
+       width: 32%;
+    }
+    @media screen and (max-width: 699px){
+        padding: 10px 0px 0px 0px;
     }
 }
 .main__image-container {
@@ -35,6 +42,11 @@
         width: 100%;
     }
 }
+button:hover{
+    background-color: $ljosrautt;
+    transition: background-color 0.3s ease-in-out;
+}
+
 .main__text-container{
     width: 100%;
     display: flex;
@@ -87,11 +99,6 @@
     }
 }
 
-.form__button:hover{
-    
-    -color: $ljosrautt;
-    transition: background-color 0.3s ease-in-out;
-}
 
 .main__text-container__form__button__content{
     display: inline-flex;

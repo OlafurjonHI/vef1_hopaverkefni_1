@@ -153,7 +153,6 @@
 }
 .cart__container__button {
     width: 100%;
-
     display: flex;
     button {
         margin: 3em auto;
@@ -168,14 +167,15 @@
         }  
     }
     button:hover {
-        color: $ljosrautt;
-        background-color: $svartur;
+        color:$ljosrautt;
+        background-color:$svartur;
         transition: background-color 0.3s ease-in-out;
     }
 
 }
+
 .cart__text-container__form>form>button:hover{
-    background-color: $ljosrautt;
+    background-color:$ljosrautt;
     transition: background-color 0.3s ease-in-out;
 }
 .cart__text-container__text{
@@ -183,6 +183,6 @@
         font-size: 2.2em;
     }
     p{
-        padding: $gutter 0;
+        padding:$gutter 0;
     }
 }
